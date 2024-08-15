@@ -21,7 +21,7 @@ const projects = [
     title: "project 1",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, laudantium.",
     stack: [{ name: "HTML 5" }, { name: "CSS 3" }, { name: "ReactJs" }, { name: "Next.js" }],
-    image: "/assets/work/thumb1.png",
+    image: "/static/assets/work/thumb1.png",
     live: '',
     github: ""
   },
@@ -31,7 +31,7 @@ const projects = [
     title: "project 1",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, laudantium.",
     stack: [{ name: "Next.js" }, { name: "Tailwind" }, { name: "ReactJs" }, { name: "Javascript" }],
-    image: "/assets/work/thumb2.png",
+    image: "/static/assets/work/thumb2.png",
     live: '',
     github: ""
   },
