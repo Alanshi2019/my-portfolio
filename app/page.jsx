@@ -1,3 +1,5 @@
+"use client";
+
 import Photo from "@/components/Photo";
 import Social from "@/components/Social";
 import Stats from "@/components/Stats";
@@ -14,9 +16,10 @@ const Home = () => {
             <h1 className="h1">
               Hello I'm <br /> <span className="text-accent">Alan Shi</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">I excel at crafting elegant digital experiences and I am proficient in various programming languages and technologies.</p>
+            <p className="max-w-[500px] mb-9 text-white/80">I’m a front-end engineer with over 5 years of experience dedicated to creating engaging and user-friendly web experiences. </p>
+            <p className="max-w-[500px] mb-9 text-white/80">With a strong proficiency in various programming languages and a deep passion for front-end development, I strive to deliver high-quality solutions that meet both user needs and business goals. Committed to continuous learning and staying current with industry trends, I bring both expertise and enthusiasm to every project.</p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button variant="outline" size="lg" className="uppercase flex items-center gap-2"><span>Download CV</span>
+              <Button variant="outline" size="lg" className="uppercase flex items-center gap-2" onClick={() => alert("Coming soon! Please reach out to me directly: alanshi.wt@gmail.com")}><span>Download CV</span>
                 <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-0">
