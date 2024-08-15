@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 
 const Photo = () => {
   return <div className='w-full h-full relative'>
@@ -10,7 +9,7 @@ const Photo = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1, transition: { delay: 2, duration: 0.4, ease: "easeIn" } }}
         className='w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute xl:left-1 xl:top-1'>
-        <Image src="/assets/photo.JPG" priority quality={100} fill alt="profile-image" className='object-container rounded-full' />
+        <img src="/assets/photo.JPG" priority="true" quality={100} fill alt="profile-image" className='object-container rounded-full' />
       </motion.div>
       <motion.svg className="w-[300px] xl:w-[504px] h-[300px] xl:h-[504px]" fill="transparent" viewBox="0 0 506 506" xmlns="http://www.w3.org/2000/svg">
         <motion.circle
