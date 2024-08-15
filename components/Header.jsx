@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { Button } from "./ui/button";
 import Nav from "./Nav";
@@ -12,9 +14,9 @@ const Header = () => {
 
       <div className="hidden xl:flex items-center gap-8">
         <Nav />
-        <Link href="/contact">
-          <Button>Hire me</Button>
-        </Link>
+
+        <Button onClick={() => alert("Please reach out directly to alanshi.wt@gmail.com")}>Contact me</Button>
+
       </div>
 
       <div className="xl:hidden">
